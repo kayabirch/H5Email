@@ -1,0 +1,9 @@
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\bin\Debug\OpenPopUnitTests.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\bin\Debug\OpenPopUnitTests.pdb
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\bin\Debug\nunit.framework.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\bin\Debug\OpenPop.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\bin\Debug\OpenPop.pdb
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\bin\Debug\OpenPop.xml
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\obj\Debug\OpenPopUnitTests.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPUnitTests\obj\Debug\OpenPopUnitTests.pdb

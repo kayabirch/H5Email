@@ -1,0 +1,13 @@
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\EmailClient.EmailClient.resources
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\EmailClient.LogedIn.resources
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\EmailClient.Properties.Resources.resources
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\EmailClient.SendEmail.resources
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\bin\Debug\EmailClient.exe.config
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\bin\Debug\EmailClient.exe
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\bin\Debug\EmailClient.pdb
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\bin\Debug\OpenPop.dll
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\EmailClient.exe
+C:\Users\Kaya Louise Birch\documents\visual studio 2010\Projects\EmailClient\EmailClient\obj\x86\Debug\EmailClient.pdb

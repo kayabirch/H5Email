@@ -1,0 +1,8 @@
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\bin\Debug\OpenPopExamples.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\bin\Debug\OpenPopExamples.pdb
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\bin\Debug\OpenPop.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\bin\Debug\OpenPop.pdb
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\bin\Debug\OpenPop.xml
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\obj\Debug\OpenPopExamples.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPopExamples\obj\Debug\OpenPopExamples.pdb

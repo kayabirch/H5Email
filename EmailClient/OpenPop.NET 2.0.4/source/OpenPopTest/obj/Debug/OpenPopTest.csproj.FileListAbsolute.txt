@@ -1,0 +1,11 @@
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.NET Test Application.exe
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.NET Test Application.pdb
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.dll
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.pdb
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\bin\Debug\OpenPop.xml
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\OpenPop.TestApplication.TestForm.resources
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\ResGen.read.1.tlog
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\ResGen.write.1.tlog
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\OpenPop.NET Test Application.exe
+C:\Users\Kaya Louise Birch\Documents\Visual Studio 2010\Projects\EmailClient\EmailClient\OpenPop.NET 2.0.4\source\OpenPOPTest\obj\Debug\OpenPop.NET Test Application.pdb
