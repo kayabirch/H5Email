@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SendEmail));
             this.lbRec = new System.Windows.Forms.Label();
             this.lbCat = new System.Windows.Forms.Label();
             this.lbMessage = new System.Windows.Forms.Label();
@@ -39,70 +40,46 @@
             // 
             // lbRec
             // 
-            this.lbRec.AutoSize = true;
-            this.lbRec.Location = new System.Drawing.Point(13, 13);
+            resources.ApplyResources(this.lbRec, "lbRec");
             this.lbRec.Name = "lbRec";
-            this.lbRec.Size = new System.Drawing.Size(84, 17);
-            this.lbRec.TabIndex = 0;
-            this.lbRec.Text = "To address:";
             // 
             // lbCat
             // 
-            this.lbCat.AutoSize = true;
-            this.lbCat.Location = new System.Drawing.Point(13, 42);
+            resources.ApplyResources(this.lbCat, "lbCat");
             this.lbCat.Name = "lbCat";
-            this.lbCat.Size = new System.Drawing.Size(59, 17);
-            this.lbCat.TabIndex = 1;
-            this.lbCat.Text = "Subject:";
             // 
             // lbMessage
             // 
-            this.lbMessage.AutoSize = true;
-            this.lbMessage.Location = new System.Drawing.Point(13, 74);
+            resources.ApplyResources(this.lbMessage, "lbMessage");
             this.lbMessage.Name = "lbMessage";
-            this.lbMessage.Size = new System.Drawing.Size(62, 17);
-            this.lbMessage.TabIndex = 2;
-            this.lbMessage.Text = "Mesage:";
             // 
             // txRec
             // 
-            this.txRec.Location = new System.Drawing.Point(99, 13);
+            resources.ApplyResources(this.txRec, "txRec");
             this.txRec.Name = "txRec";
-            this.txRec.Size = new System.Drawing.Size(215, 22);
-            this.txRec.TabIndex = 3;
             // 
             // txCat
             // 
-            this.txCat.Location = new System.Drawing.Point(99, 42);
+            resources.ApplyResources(this.txCat, "txCat");
             this.txCat.Name = "txCat";
-            this.txCat.Size = new System.Drawing.Size(215, 22);
-            this.txCat.TabIndex = 4;
             // 
             // txMessage
             // 
-            this.txMessage.Location = new System.Drawing.Point(99, 74);
-            this.txMessage.Multiline = true;
+            resources.ApplyResources(this.txMessage, "txMessage");
             this.txMessage.Name = "txMessage";
-            this.txMessage.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txMessage.Size = new System.Drawing.Size(215, 135);
-            this.txMessage.TabIndex = 5;
             // 
             // btSend
             // 
+            resources.ApplyResources(this.btSend, "btSend");
             this.btSend.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btSend.Location = new System.Drawing.Point(16, 248);
             this.btSend.Name = "btSend";
-            this.btSend.Size = new System.Drawing.Size(75, 30);
-            this.btSend.TabIndex = 6;
-            this.btSend.Text = "Send";
             this.btSend.UseVisualStyleBackColor = false;
             this.btSend.Click += new System.EventHandler(this.btSend_Click);
             // 
             // SendEmail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(356, 300);
             this.Controls.Add(this.btSend);
             this.Controls.Add(this.txMessage);
             this.Controls.Add(this.txCat);
@@ -111,7 +88,7 @@
             this.Controls.Add(this.lbCat);
             this.Controls.Add(this.lbRec);
             this.Name = "SendEmail";
-            this.Text = "SendEmail";
+            this.Load += new System.EventHandler(this.SendEmail_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

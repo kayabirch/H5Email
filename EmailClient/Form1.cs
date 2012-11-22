@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace EmailClient
 {
@@ -18,44 +20,16 @@ namespace EmailClient
 
         private void btLogin_Click(object sender, EventArgs e)
         {
-            /*string name = "anna";
-            //string password = "Password1";
-            if (txUser.Text == name)
-            {
-                if (txPass.Text == password)
-                {
-                    if (cbCRe.Checked)
-                    {
-                        Properties.Settings.Default.username = name;
-                        Properties.Settings.Default.password = password;
-                        Properties.Settings.Default.Save();
-                    }
-                    else
-                    {
-                        Properties.Settings.Default.username = string.Empty;
-                        Properties.Settings.Default.password = string.Empty;
-                        Properties.Settings.Default.Save();
-                    }
-
-                    LogedIn logedin = new LogedIn();
-                    logedin.Show();
-                    logedin.lbLogedInName.Text = Name;
-                    this.Hide();
-                    
-                }
-                else
-                    MessageBox.Show("You have written a wrong password!");
-            }
-            else
-                MessageBox.Show("You have written a wrong username!");*/
-
+            //save to settings file
             Properties.Settings.Default.username = txUser.Text;
             Properties.Settings.Default.password = txPass.Text;
 
+            //show new form after login:
             LogedIn logedin = new LogedIn();
             logedin.Show();
-            logedin.lbLogedInName.Text = Name;
+            logedin.lbLogedInName.Text = txUser.Text;
             this.Hide();
+            MessageBox.Show("Please wait, messages are being loaded in as you read this. !");
         }
     }
 }

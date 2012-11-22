@@ -73,6 +73,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LogedIn.da.resx">
+      <DependentUpon>LogedIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogedIn.resx">
       <DependentUpon>LogedIn.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +88,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SendEmail.da.resx">
+      <DependentUpon>SendEmail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SendEmail.resx">
       <DependentUpon>SendEmail.cs</DependentUpon>
     </EmbeddedResource>

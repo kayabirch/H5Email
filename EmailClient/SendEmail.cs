@@ -9,14 +9,19 @@ using System.Net.Mail;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.IO;
+using System.Globalization;
 
 namespace EmailClient
 {
     public partial class SendEmail : Form
     {
-        public SendEmail()
+        string val;
+
+        public SendEmail(string choosenLang)
         {
+            val = choosenLang;
             InitializeComponent();
+            
         }
 
         private void btSend_Click(object sender, EventArgs e)
@@ -35,7 +40,7 @@ namespace EmailClient
 
                 using (Rijndael rijndaelCreater = Rijndael.Create())
                 {
-                    // encrypt the body message to a byte
+                    // encrypt the body message to a byte 
                     byte[] encrypted = EncryptStringToBytes(txMessage.Text, rijndaelCreater.Key, rijndaelCreater.IV);
                     byte[] dataToEncrypt = encrypted;
                     byte[] encryptedData;
@@ -46,8 +51,8 @@ namespace EmailClient
                         encryptedData = RSAEncrypt(dataToEncrypt, RSA.ExportParameters(false), false);
                         decryptedData = RSADecrypt(encryptedData, RSA.ExportParameters(true), false);
                     }
-                    // Decrypt the byte message to a string
-                    string roundtrip = DecryptStringFromBytes(decryptedData, rijndaelCreater.Key, rijndaelCreater.IV);
+                    // Decrypt the byte message to a string after it has been encrypted and decrypted by RSA
+                    string DecryptedFromRSAToSymme = DecryptStringFromBytes(decryptedData, rijndaelCreater.Key, rijndaelCreater.IV);
 
 
                     SmtpServer.Port = 587;
@@ -180,6 +185,25 @@ namespace EmailClient
             {
                 MessageBox.Show(e.Message);
                 return null;
+            }
+        }
+
+        private void SendEmail_Load(object sender, EventArgs e)
+        {
+            if (val == "Danish")
+            {
+                ChangeLanguage("da");
+            }
+            else
+                ChangeLanguage("en");  
+        }
+
+        private void ChangeLanguage(string language)
+        {
+            foreach (Control c in this.Controls)
+            {
+                ComponentResourceManager resources = new ComponentResourceManager(typeof(SendEmail));
+                resources.ApplyResources(c, c.Name, new CultureInfo(language));
             }
         }
     }
