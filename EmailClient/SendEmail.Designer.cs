@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SendEmail));
             this.lbRec = new System.Windows.Forms.Label();
             this.lbCat = new System.Windows.Forms.Label();
@@ -36,6 +37,7 @@
             this.txCat = new System.Windows.Forms.TextBox();
             this.txMessage = new System.Windows.Forms.TextBox();
             this.btSend = new System.Windows.Forms.Button();
+            this.toolTipSend = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // lbRec
@@ -70,9 +72,10 @@
             // 
             // btSend
             // 
-            resources.ApplyResources(this.btSend, "btSend");
             this.btSend.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            resources.ApplyResources(this.btSend, "btSend");
             this.btSend.Name = "btSend";
+            this.toolTipSend.SetToolTip(this.btSend, resources.GetString("btSend.ToolTip"));
             this.btSend.UseVisualStyleBackColor = false;
             this.btSend.Click += new System.EventHandler(this.btSend_Click);
             // 
@@ -103,5 +106,6 @@
         private System.Windows.Forms.TextBox txCat;
         private System.Windows.Forms.TextBox txMessage;
         private System.Windows.Forms.Button btSend;
+        private System.Windows.Forms.ToolTip toolTipSend;
     }
 }

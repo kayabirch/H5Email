@@ -106,6 +106,7 @@ namespace EmailClient
 
         private void listMessages_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            listAttachements.Nodes.Clear();
             nodeIndex = e.Node.Index;
             //Get From address
             txFrom.Text = messages[e.Node.Index].Headers.From.ToString();
@@ -156,6 +157,7 @@ namespace EmailClient
             else
                 txMessage.Text = "No text ! ";
             //Get attachements
+            
             foreach (MessagePart attachement in messages[e.Node.Index].FindAllAttachments())
             {
                 listAttachements.Nodes.Clear();
@@ -164,6 +166,7 @@ namespace EmailClient
 
         }
 
+        //insert languge in combobox and default is english
         private void LogedIn_Load(object sender, EventArgs e)
         {
             cbLanguage.Items.Add("English");
@@ -180,7 +183,7 @@ namespace EmailClient
                 resources.ApplyResources(c, c.Name, new CultureInfo(language));
             }
         }
-
+        //When selected indix of the combobox is changed, change language to.
         private void cbLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbLanguage.SelectedItem.ToString() == "Danish")

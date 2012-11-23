@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmailClient));
             this.txLogCre = new System.Windows.Forms.Label();
             this.lbUser = new System.Windows.Forms.Label();
@@ -37,6 +38,8 @@
             this.btLogin = new System.Windows.Forms.Button();
             this.lbSaveCre = new System.Windows.Forms.Label();
             this.cbCRe = new System.Windows.Forms.CheckBox();
+            this.toolTipChecked = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipLogin = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // txLogCre
@@ -70,6 +73,7 @@
             this.btLogin.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             resources.ApplyResources(this.btLogin, "btLogin");
             this.btLogin.Name = "btLogin";
+            this.toolTipLogin.SetToolTip(this.btLogin, resources.GetString("btLogin.ToolTip"));
             this.btLogin.UseVisualStyleBackColor = false;
             this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
@@ -82,6 +86,7 @@
             // 
             resources.ApplyResources(this.cbCRe, "cbCRe");
             this.cbCRe.Name = "cbCRe";
+            this.toolTipChecked.SetToolTip(this.cbCRe, resources.GetString("cbCRe.ToolTip"));
             this.cbCRe.UseVisualStyleBackColor = true;
             // 
             // EmailClient
@@ -112,6 +117,8 @@
         private System.Windows.Forms.Button btLogin;
         private System.Windows.Forms.Label lbSaveCre;
         private System.Windows.Forms.CheckBox cbCRe;
+        private System.Windows.Forms.ToolTip toolTipLogin;
+        private System.Windows.Forms.ToolTip toolTipChecked;
     }
 }
 

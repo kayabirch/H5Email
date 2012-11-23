@@ -29,7 +29,6 @@ namespace EmailClient
             logedin.Show();
             logedin.lbLogedInName.Text = txUser.Text;
             this.Hide();
-            //MessageBox.Show("Please wait, messages are being loaded in as you read this. !");
         }
     }
 }

@@ -187,7 +187,7 @@ namespace EmailClient
                 return null;
             }
         }
-
+        //Check if choosen language is danish or english and then use the definded resx file.
         private void SendEmail_Load(object sender, EventArgs e)
         {
             if (val == "Danish")

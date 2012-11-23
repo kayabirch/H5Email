@@ -254,6 +254,12 @@
   <data name="btLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
+  <metadata name="toolTipLogin.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>176, 17</value>
+  </metadata>
+  <data name="btLogin.ToolTip" xml:space="preserve">
+    <value>Click here to login.</value>
+  </data>
   <data name="&gt;&gt;btLogin.Name" xml:space="preserve">
     <value>btLogin</value>
   </data>
@@ -305,6 +311,12 @@
   <data name="cbCRe.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <metadata name="toolTipChecked.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cbCRe.ToolTip" xml:space="preserve">
+    <value>Check this of if you want to save your credentials.</value>
+  </data>
   <data name="&gt;&gt;cbCRe.Name" xml:space="preserve">
     <value>cbCRe</value>
   </data>
@@ -328,6 +340,18 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Email-Client</value>
+  </data>
+  <data name="&gt;&gt;toolTipChecked.Name" xml:space="preserve">
+    <value>toolTipChecked</value>
+  </data>
+  <data name="&gt;&gt;toolTipChecked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTipLogin.Name" xml:space="preserve">
+    <value>toolTipLogin</value>
+  </data>
+  <data name="&gt;&gt;toolTipLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>EmailClient</value>
