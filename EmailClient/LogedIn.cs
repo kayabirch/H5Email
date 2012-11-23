@@ -96,11 +96,9 @@ namespace EmailClient
             
             catch(Exception ex)
             {
-                MessageBox.Show("You have written something wrong! : " + ex.Message);
-                EmailClient em = new EmailClient();
-                em.Dispose();
+                MessageBox.Show("You have written username or password wrong or something else has happened! Program will not keep going, please open it again, thank you : " + ex.Message);
                 Thread.CurrentThread.Abort();
-                Application.Exit();
+                //EmailClient.
             }
             
             return null;

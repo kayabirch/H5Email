@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogedIn));
             this.lbloglabel = new System.Windows.Forms.Label();
             this.lbLogedInName = new System.Windows.Forms.Label();
@@ -49,6 +50,8 @@
             this.txBCC = new System.Windows.Forms.TextBox();
             this.cbLanguage = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.toolTipCreate = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // lbloglabel
@@ -66,6 +69,7 @@
             this.btCreateEmail.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             resources.ApplyResources(this.btCreateEmail, "btCreateEmail");
             this.btCreateEmail.Name = "btCreateEmail";
+            this.toolTipCreate.SetToolTip(this.btCreateEmail, resources.GetString("btCreateEmail.ToolTip"));
             this.btCreateEmail.UseVisualStyleBackColor = false;
             this.btCreateEmail.Click += new System.EventHandler(this.btCreateEmail_Click);
             // 
@@ -148,6 +152,7 @@
             this.cbLanguage.FormattingEnabled = true;
             resources.ApplyResources(this.cbLanguage, "cbLanguage");
             this.cbLanguage.Name = "cbLanguage";
+            this.toolTip1.SetToolTip(this.cbLanguage, resources.GetString("cbLanguage.ToolTip"));
             this.cbLanguage.SelectedIndexChanged += new System.EventHandler(this.cbLanguage_SelectedIndexChanged);
             // 
             // label1
@@ -208,5 +213,7 @@
         private System.Windows.Forms.TextBox txBCC;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.ComboBox cbLanguage;
+        private System.Windows.Forms.ToolTip toolTipCreate;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
